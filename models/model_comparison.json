@@ -1,0 +1,82 @@
+[
+  {
+    "Model": "XGBoost (Tuned)",
+    "CV_R2_Mean": 0.9725,
+    "CV_RMSE": 80561.61,
+    "Test_R2": 0.9778,
+    "MAPE (%)": 4.88,
+    "Train_Time_s": 9.022,
+    "Test_MAE (\u20b9)": 51514.75,
+    "Test_RMSE (\u20b9)": 70751.47
+  },
+  {
+    "Model": "XGBoost Regressor",
+    "CV_R2_Mean": 0.9725,
+    "CV_RMSE": 80561.61,
+    "Test_R2": 0.9751,
+    "MAPE (%)": 5.12,
+    "Train_Time_s": 9.022,
+    "Test_MAE (\u20b9)": 53911.52,
+    "Test_RMSE (\u20b9)": 74956.4
+  },
+  {
+    "Model": "Gradient Boosting",
+    "CV_R2_Mean": 0.9711,
+    "CV_RMSE": 82590.44,
+    "Test_R2": 0.9735,
+    "MAPE (%)": 5.5,
+    "Train_Time_s": 29.193,
+    "Test_MAE (\u20b9)": 57224.55,
+    "Test_RMSE (\u20b9)": 77259.25
+  },
+  {
+    "Model": "Linear Regression",
+    "CV_R2_Mean": 0.9517,
+    "CV_RMSE": 106876.25,
+    "Test_R2": 0.9531,
+    "MAPE (%)": 8.25,
+    "Train_Time_s": 31.738,
+    "Test_MAE (\u20b9)": 75531.86,
+    "Test_RMSE (\u20b9)": 102831.37
+  },
+  {
+    "Model": "Lasso Regression",
+    "CV_R2_Mean": 0.9516,
+    "CV_RMSE": 106904.34,
+    "Test_R2": 0.953,
+    "MAPE (%)": 8.24,
+    "Train_Time_s": 2.19,
+    "Test_MAE (\u20b9)": 75497.47,
+    "Test_RMSE (\u20b9)": 102891.34
+  },
+  {
+    "Model": "Ridge Regression",
+    "CV_R2_Mean": 0.9505,
+    "CV_RMSE": 108123.11,
+    "Test_R2": 0.9519,
+    "MAPE (%)": 8.32,
+    "Train_Time_s": 0.274,
+    "Test_MAE (\u20b9)": 76380.03,
+    "Test_RMSE (\u20b9)": 104191.25
+  },
+  {
+    "Model": "Random Forest",
+    "CV_R2_Mean": 0.944,
+    "CV_RMSE": 114968.68,
+    "Test_R2": 0.9473,
+    "MAPE (%)": 7.83,
+    "Train_Time_s": 27.716,
+    "Test_MAE (\u20b9)": 79884.69,
+    "Test_RMSE (\u20b9)": 108962.83
+  },
+  {
+    "Model": "Decision Tree",
+    "CV_R2_Mean": 0.8676,
+    "CV_RMSE": 176821.5,
+    "Test_R2": 0.8639,
+    "MAPE (%)": 12.49,
+    "Train_Time_s": 1.918,
+    "Test_MAE (\u20b9)": 127427.01,
+    "Test_RMSE (\u20b9)": 175160.18
+  }
+]
